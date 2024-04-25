@@ -1,0 +1,10 @@
+<div class="tabs">
+  <div *ngFor="let tab of _tabs" (click)="selectTab(tab)" class="tab" [class.tab-active]="tab.active">
+    {{tab.heading}}
+    <span class="close" (click)="removeTab(tab)">&times;</span>
+  </div>
+</div>
+
+<div class="tabset-content">
+  <ng-content></ng-content>
+</div>

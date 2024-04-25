@@ -1,0 +1,23 @@
+.tabs {
+    display: flex;
+    gap: 3px;
+    color: #fff;
+}
+
+.tab {
+    display: flex;
+    gap: 5px;
+    margin-right: 3px;
+    border: 1px black solid;
+    padding: 10px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.tab-active {
+    background-color: blue;
+}
+
+.tabset-content {
+    border: 1px black solid;
+}
